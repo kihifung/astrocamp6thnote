@@ -1,5 +1,8 @@
 # 1113_ruby_day6
 
+[![hackmd-github-sync-badge](https://hackmd.io/EOFrEBNKTSiSGJVlmjhzmA/badge)](https://hackmd.io/EOFrEBNKTSiSGJVlmjhzmA)
+
+
 #### 上課日期：1113
 ###### tags: `ruby`
 ###### tags: `5xruby`
@@ -13,9 +16,9 @@
 ---
 # 0. 綱要/目錄
 - [ ] rails 專案
-- [ ] 重點2
-- [ ] 重點3
-- [ ] 重點4
+- [ ] 新增
+- [ ] 修改
+- [ ] 刪除
 - [ ] 重點5
 
 
@@ -28,78 +31,77 @@
 - 註解等訊息都會被壓縮
 ![](https://i.imgur.com/28I7VUg.png)
 - `require_tree .`，一種便捷的寫法（龍哥：偷懶），表示以下的東西都require 
-- 應該直接寫明需要require什麼項目才好
+- 應該直接寫明需要require什麼項目才好，這樣可以清楚知道到底用什麼
 		
-##### Asset Pipeline 
-- [說明](https://ihower.tw/rails/assets-pipeline.html)
+##### 
+- [Asset Pipeline 說明](https://ihower.tw/rails/assets-pipeline.html)
 
 
+##### 
+- [前端工具：webpack](https://webpack.js.org/)
+- Rails 6 開始支援
+- 5之前為asset pipeline
+---
+- note: 當東西越來越多的時候，要將其中一些模組化。不但可以整理版面，也可以讓其他地方拿來用。
+- note: 局部渲染（不是完整的檔案），前面檔名有底線，
+##### meta programming
+- 用程式碼來寫程式
+- 舉例：用一台3D印表機製作出一台印表機的零件（然後將其組裝起來）=> 用印表機印出印表機
 
+- 在alias（別名）裡面會設定相關的名稱，類似關鍵字的模糊比對，通常會包含該方法的各種變化。
 
+---
 
-# 2. theme2
-> 說明這部分是什麼
-1. topic1
-    1. item1
-     :::info
-        * aaa
-        * bbb
-        * ccc       
-     :::
+- Board.find(1)    #只會找到一筆資料，只能數字
+- Board.find_by(id: 2)	#只會找到一筆資料，可以接hash
+- Board.where(id: 3) #會找到一組資料（陣列）
+- Board.all  		#會找到一組資料
+#### 面試題：find跟find_by差在哪？
+- 找到資料有差
+- 錯誤訊息也不同
+- 相近的另一種方法：find_by! <-加一個驚嘆號
 
-    3. item2
-    4. item3
-1. topic2
-1. 圖片連結格式
-    - `![](連結網址)`
-    - 範例圖：
-![](https://5xruby.tw/assets/images/index/banner_astro-a839be5c.jpg)
+---
+##### 錯誤訊息的處理方法
+在Controller裡面：
+`rescoue_form ActiveRecord::RecordNotFound, with: ABC `
+=> 只要在這個Controller出現ActiveRecord::RecordNotFound這個錯誤訊息，就會用with後面的ABC方法來處理。接著在下方定義ABC。
+- 這種方法通常不會公開，會放在下方的private裡面
+- 比較好的方式是，讓它連結到404頁面
+- rails會有一個內建的404頁面，放在public下面
+	- 放在public下面的，不需要經過MVCR的處理
+	- 404頁面，其實是一個很好的廣告/導覽頁面，因為使用者會好好看這一頁。
 
+---
 
-# 3. theme3
-> 說明這部分是什麼
+note: create 和 update 因為流程上很像，所以code也長得很像
+note: new 和 edit 因為流程上很像，所以code也長得很像
 
-- 選取方塊
-    - [x] 選項1
-    - [ ] 選項2
-    - [x] 選項3
-    - [ ] 選項4
-
-- 連結格式
-
-> []> 連結格式`[](https://)`
-> [color=#28c945]
-
-
-
-
-
-# 4. theme4
-> 說明這部分是什麼
-1. 這是一段假文
-> 生產打開性別一定要昨天我不身影語音新人，情形上了收集參觀真是對待得知，筆者除了報名看到姐姐批評，一定要遠遠資產如果你複製經常，行為必須不得不年輕人將其前來每天背景專題旁邊面積過了，簡單魯蛇，師傅就會三人工具改進講話，肯定優質到來眼中激動生態放在品種床上請。
-
-2. `$ 程式碼格式 `，也可以當作變色/標注用
-
-
-# 5. theme5
-> 說明這部分是什麼
-
-- 這裡有一個表格
-
-| Column 1 | Column 2 | Column 3 |
-| -------- | -------- | -------- |
-| Text     | Text     | Text     |
-| Text     | Text    
-| | | |
-| | | |
-
-
+##### unobtrusive javascript 非侵入式JavaScript
+- 不要將JS綁在html裡面
 
 
 ---
-# 附件
-- [這裡是附件的標題](這裡放連結) 
-- [這裡是附件的標題](這裡放連結) 
+- php的laravel(2011)模仿自rails(2004)
 
+##### before_action 
+- 在action之前就先執行，這樣可以減少後面action中同樣的程式碼
+- before_filter同義，是較早的版本
+
+##### 局部渲染
+- 要注意不要有 "@" 實體變數，讓它主動去抓資料產生變化。而是讓它被動（的提供內容）
+
+- note: 省略時，要注意 對應到的資料是否唯一/常用。
+- note: 在rails裡，沒有特別註明格式，預設為html
+
+---
+# 作業
+本週 Ruby 作業練習：
+
+- 開一個全新的 Rails 專案
+- 手工撰寫針對 Book 的 CRUD 功能
+  - Book 有書名跟售價兩個欄位
+- 邊講解邊錄影，錄影上傳到 Youtube
+- 儘量把時間壓在 30 分鐘內
+- 11/17（二）10:00 前交件
 
