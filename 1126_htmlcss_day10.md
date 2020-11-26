@@ -1,5 +1,8 @@
 # 1126_htmlcss_day10
 
+[![hackmd-github-sync-badge](https://hackmd.io/VX1hMo8BTf-ncsbasXbxpA/badge)](https://hackmd.io/VX1hMo8BTf-ncsbasXbxpA)
+
+
 
 #### 上課日期：1126
 ###### tags: `html/css`
@@ -21,91 +24,48 @@
 
 ---
 # 0. 綱要/目錄
-- [ ] 重點1
-- [ ] 重點2
-- [ ] 重點3
-- [ ] 重點4
-- [ ] 重點5
-
-
----
-# 1. theme1
-> 說明這部分是什麼
-1. topic1
-    1. item1
-        * aaa
-        * bbb
-        * ccc  
-    3. item2
-    4. item3
-1. topic2
-1. topic3
-
-
-
-# 2. theme2
-> 說明這部分是什麼
-1. topic1
-    1. item1
-     :::info
-        * aaa
-        * bbb
-        * ccc       
-     :::
-
-    3. item2
-    4. item3
-1. topic2
-1. 圖片連結格式
-    - `![](連結網址)`
-    - 範例圖：
-![](https://5xruby.tw/assets/images/index/banner_astro-a839be5c.jpg)
-
-
-# 3. theme3
-> 說明這部分是什麼
-
-- 選取方塊
-    - [x] 選項1
-    - [ ] 選項2
-    - [x] 選項3
-    - [ ] 選項4
-
-- 連結格式
-
-> []> 連結格式`[](https://)`
-> [color=#28c945]
-
-
-
-
-
-# 4. theme4
-> 說明這部分是什麼
-1. 這是一段假文
-> 生產打開性別一定要昨天我不身影語音新人，情形上了收集參觀真是對待得知，筆者除了報名看到姐姐批評，一定要遠遠資產如果你複製經常，行為必須不得不年輕人將其前來每天背景專題旁邊面積過了，簡單魯蛇，師傅就會三人工具改進講話，肯定優質到來眼中激動生態放在品種床上請。
-
-2. `$ 程式碼格式 `，也可以當作變色/標注用
-
-
-# 5. theme5
-> 說明這部分是什麼
-
-- 這裡有一個表格
-
-| Column 1 | Column 2 | Column 3 |
-| -------- | -------- | -------- |
-| Text     | Text     | Text     |
-| Text     | Text    
-| | | |
-| | | |
-
+- [ ] 案例說明：絕對定位
+- [ ] bootstrap
+- [ ] 專案模擬workshop
 
 
 
 ---
-# 附件
-- [這裡是附件的標題](這裡放連結) 
-- [這裡是附件的標題](這裡放連結) 
+# 1. 案例說明：絕對定位
+
+
+
+# 2. bootstrap
+#### 幻燈片
+* [**Carousel**](https://getbootstrap.com/docs/4.5/components/carousel/)：內建，不好用 
+* [**Swiper**](https://swiperjs.com/)：推薦使用
+* [**Owl Carousel 2**](https://owlcarousel2.github.io/OwlCarousel2/)：聽說有安全疑慮
+##### 可能遇到的需求：有些人可能覺得套件的原始碼太多，只要取用有需要的就好
+
+#### 導覽列 Navbar
+
+#### [Navs and tabs](https://v5.getbootstrap.com/docs/5.0/components/navs-tabs/)
+
+##### 上課範例檔
+- [連結](https://discord.com/channels/748042598983401482/748046752870826045/781395796884586497)
+---
+
+# 3. 專案模擬workshop
+項目：
+> 所以項目都需要考量**時程**的問題
+* 創意發想
+	> X-mind輔助
+* 功能
+* 畫面
+* 分工
+
+
+#### 網站草圖 wireframe
+##### 繪製工具
+- [萬能的手～](https://zh.wikipedia.org/wiki/%E6%89%8B)
+- [balsamiq](https://balsamiq.com/wireframes/)
+- [AdobeXD](https://www.adobe.com/tw/products/xd.html)
+
+
 
 
