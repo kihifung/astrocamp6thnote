@@ -194,7 +194,7 @@ rails server 命令會啟動一個小型的網路伺服器，叫做 WEBrick，�
  - `$ rails console --snadbox`
  - 離開：ctl+d or exit
  
------
+---
 
 
 ---
