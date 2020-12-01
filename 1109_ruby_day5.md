@@ -1,5 +1,8 @@
 # 1109_ruby_day5
 
+[![hackmd-github-sync-badge](https://hackmd.io/MZ8ySDMMQUmc_-MMZq2Dvw/badge)](https://hackmd.io/MZ8ySDMMQUmc_-MMZq2Dvw)
+
+---
 #### 上課日期：1109
 ###### tags: `ruby`
 ###### tags: `5xruby`
@@ -21,7 +24,7 @@
 ---
 # 1. Board / route / controller
 ### 安裝 / bundler / gemfile
-$ rails g model Board title
+`$ rails g model Board title`
 
 - 學習框架就是學習慣例
 - 在vscode裡，若要固定將__.html.erb檔改成是html格式，找到此行做修改即可。
