@@ -1,5 +1,8 @@
 # 1105_htmlcss_day4
 
+[![hackmd-github-sync-badge](https://hackmd.io/cZO5_tUKTpSjoBvqv5rpew/badge)](https://hackmd.io/cZO5_tUKTpSjoBvqv5rpew)
+
+---
 #### 上課日期：1105
 ###### tags: `html/css`
 ###### tags: `5xruby`
@@ -41,7 +44,7 @@
 3. "+"：選取第一個物件(a)之後的物件(b)＝>被選取的是物件(b)
 [金魚選取器](https://ithelp.ithome.com.tw/articles/10220656)
 
-
+---
 # 2. 區塊（block）
 
 | 項目 | 解釋 | xxxx |顏色|
@@ -55,7 +58,7 @@
 - 延伸閱讀：[金魚box-sizing](https://ithelp.ithome.com.tw/articles/10252827)
 
 
-
+---
 # 3. margin的特性
 - margin:上右下左;
 - margin:上下_右左;
@@ -65,7 +68,7 @@
 	- margin:0 auto 0 auto 水平置中
 
 
-
+---
 # 4. inline與block的比較
 | 項目 | Inline | Block |Inline-block|
 | -------- | -------- | -------- | -------- |
@@ -87,13 +90,13 @@
 
 
 
-
+---
 # 5. 學習技巧
 > 知道哪裡有問題，前後比較才知道差異
 - 紀錄問題：
 - 計算時間：工時的評估。瞭解彼此的差異。做為精進的參考。
 
-
+---
 # 作業
 - 導覽列的選項，左右都要有分隔線
 - 範例如圖(pchome)
@@ -106,6 +109,7 @@
 - [flex定位小遊戲](https://flexboxfroggy.com/) 
 - [上課範例檔案](https://discord.com/channels/748042598983401482/748046752870826045/773831901118595073)
 
+---
 # 預習
 - CSS的reset(金魚)
 
