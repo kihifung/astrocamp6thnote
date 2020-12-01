@@ -1,5 +1,8 @@
 # 1027_git_day2
 
+[![hackmd-github-sync-badge](https://hackmd.io/PbWvPH__SjqmEO2J_q_MNg/badge)](https://hackmd.io/PbWvPH__SjqmEO2J_q_MNg)
+
+
 #### 上課日期：1027
 ###### tags: `git`
 ###### tags: `5xruby`
