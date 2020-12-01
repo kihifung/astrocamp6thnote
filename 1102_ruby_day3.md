@@ -1,5 +1,8 @@
 # 1102_ruby_day3
 
+[![hackmd-github-sync-badge](https://hackmd.io/LKJZHq0uQuywwmq0YJckGw/badge)](https://hackmd.io/LKJZHq0uQuywwmq0YJckGw)
+
+---
 #### 上課日期：1102
 ###### tags: `ruby`
 ###### tags: `5xruby`
@@ -13,7 +16,7 @@
 
 ---
 # 1. Block(區塊)
-> 說明這部分是什麼
+
 1. `{}`
     1. 沒辦法單獨存在
     2. Block = 一段不會被主動執行的程式碼
@@ -97,11 +100,11 @@ hello(1,2,3,5,3,1)
 ### 2.1. 類別與實體(class and instance)
 
 
-
+---
 # 3. 模組
 
 
-
+---
 # 4. 重構（refactor）
 
 :::info
@@ -113,10 +116,6 @@ hello(1,2,3,5,3,1)
 - ruby 裡面陣列可以直接相減
 
 - [參考文章:Ruby Object Model](https://medium.com/lynn-%E7%9A%84%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/rails-%E6%96%B0%E6%89%8B%E6%9D%91-ruby-object-model-5c3b4b869df6)
-
-
-
-
 
 
 
