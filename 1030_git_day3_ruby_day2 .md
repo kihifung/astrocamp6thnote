@@ -1,5 +1,8 @@
 # 1030_git_day3_ruby_day2 
 
+[![hackmd-github-sync-badge](https://hackmd.io/NfcopxcNQYqR57gwVrbpOw/badge)](https://hackmd.io/NfcopxcNQYqR57gwVrbpOw)
+
+---
 #### 上課日期：1029
 ###### tags: `git`
 ###### tags: `ruby`
