@@ -2,56 +2,91 @@
 
 [![hackmd-github-sync-badge](https://hackmd.io/d_6N3lc7QwycnrNaJKykbg/badge)](https://hackmd.io/d_6N3lc7QwycnrNaJKykbg)
 
+---
+---
+<!-- 
+<style>
 
+html, body, .ui-content {
+    background-color: hsl(55deg, 10%, 15%);
+    color: #fff;
+}
+
+</style>
+ -->
+
+
+---
 ###### tags: `5xruby`
 
 - [ＨackMD群組頁面](https://hackmd.io/@astrocamp6th)
 - [基本資訊 與 佈告欄](https://hackmd.io/@astrocamp6th/B1Qs0LLOv/edit)
 - [筆記參考範本](https://hackmd.io/@astrocamp6th/H15KtW_Ow/edit) 
 - [作業](https://hackmd.io/@astrocamp6th/r1OIiVCOv/edit)
-- [學習評量](https://docs.google.com/spreadsheets/d/1nGfKmahVmmui1a1ZUbw6lNy1e40dnmH1Lv-hOxA81V8/edit#gid=0)：每日自我評分
 - [課程影片](https://campus.5xruby.tw/courses/1136422/lectures/25361517)
-- [5xRuby假日會議室借用登記](https://docs.google.com/spreadsheets/d/1OfVGBmI12PvcgO-xTkEPEz_f5HN6wyNbma7ODtZYT6w/edit#gid=0)
----
+- [面試題目收集](https://hackmd.io/@astrocamp6th/Sk4ZhtJtP/edit)
 
+---
+# WEEK 0
 - [0917 Ruby 環境安裝](https://hackmd.io/@astrocamp6th/B1bzpoPOD/edit)
 - [1022 Ruby爬蟲工作坊](https://hackmd.io/npW4-UpITRyMSyWrJ8InFA)
 ---
 # WEEK 1_1026-1030
-- [1026 Git day1](https://hackmd.io/@astrocamp6th/H13H307_v/edit)
-- [1027 Git day2](https://hackmd.io/@astrocamp6th/rkFiPWrOv/edit)
-- [1028 html/css day1](https://hackmd.io/@astrocamp6th/ByPf4PBdP/edit)
-- [1029 html/css day2](https://hackmd.io/@astrocamp6th/HyX5kMtdD/edit)
-- [1030 Git day3 Ruby day2](https://hackmd.io/@astrocamp6th/H15KtW_Ow/edit)
+- [1026_git_day1](https://hackmd.io/@astrocamp6th/H13H307_v/edit)
+- [1027_git_day2](https://hackmd.io/@astrocamp6th/rkFiPWrOv/edit)
+- [1028_html/css_day1](https://hackmd.io/@astrocamp6th/ByPf4PBdP/edit)
+- [1029_html/css_day2](https://hackmd.io/@astrocamp6th/HyX5kMtdD/edit)
+- [1030_git_day3_ruby_day2](https://hackmd.io/@astrocamp6th/H15KtW_Ow/edit)
 ---
 # WEEK 2_1102-1106
-- [1102 Ruby day3](https://hackmd.io/@astrocamp6th/SJ2muh2uP/edit)
+- [1102_ruby_day3](https://hackmd.io/@astrocamp6th/SJ2muh2uP/edit)
     - rack
-- [1103 html/css day3](https://hackmd.io/@astrocamp6th/BkU39mCuv/edit)
-- [1105 html/css day4](https://hackmd.io/@astrocamp6th/r1Jd-pxFw/edit)
+- [1103_html/css_day3](https://hackmd.io/@astrocamp6th/BkU39mCuv/edit)
+- [1105_html/css_day4](https://hackmd.io/@astrocamp6th/r1Jd-pxFw/edit)
     - block & inline
-- [1106 Ruby day4](https://hackmd.io/@astrocamp6th/HksXfpeFw/edit)
+- [1106_ruby_day4](https://hackmd.io/@astrocamp6th/HksXfpeFw/edit)
 	- TDD
 	- 製作專案討論
 
 ---
 # WEEK 3_1109-1113
-- [1109 Ruby day5](https://hackmd.io/@astrocamp6th/S1svGhrYP/edit)
-- [1110 html/css day5](https://hackmd.io/@astrocamp6th/Sy1TVvvKv/edit)
+- [1109_ruby_day5](https://hackmd.io/@astrocamp6th/S1svGhrYP/edit)
+- [1110_html/css_day5](https://hackmd.io/@astrocamp6th/Sy1TVvvKv/edit)
 	- flex
-- [1111 html/css day6](https://hackmd.io/@astrocamp6th/Sk92SPvYw/edit)
+- [1111_html/css_day6](https://hackmd.io/@astrocamp6th/Sk92SPvYw/edit)
 	- position
 	- 偽元素 Pseudo Element
-- [1113 Ruby day6](https://hackmd.io/@astrocamp6th/SklhG3rYD/edit)
+- [1113_ruby_day6](https://hackmd.io/@astrocamp6th/SklhG3rYD/edit)
+	- rails專案：CRUD
 
 ---
 # WEEK 4_1116-1120
-
+- [1116_ruby_day7](https://hackmd.io/@astrocamp6th/ryl3jw0tP/edit)
+	- 資料庫、SQL
+- [1117 html/css day7](https://hackmd.io/@astrocamp6th/HJH52P0KD/edit)
+	- RWD
+- [1118_html/css_day8](https://hackmd.io/@astrocamp6th/SkqFRw0FP/edit)
+	- RWD、作業檢討
+- [1120_ruby_day8](https://hackmd.io/@astrocamp6th/ByuqjDRtv/edit)
+	- rails專案：CRUD
 ---
 # WEEK 5_1123-1127
+- [1123_ruby_day9](https://hackmd.io/@astrocamp6th/rkkq88wcP/edit)
+	- rails專案：CRUD
+- [1124_html/css_day9](https://hackmd.io/@astrocamp6th/SytzuIv9D/edit)
+	- bootstrap
+- [1126_html/css_day10](https://hackmd.io/@astrocamp6th/By-q_Iw5P/edit)
+	- 工作坊
+- [1127_ruby_day10](https://hackmd.io/@astrocamp6th/rJPow8wqv/edit)
 
 ---
 # WEEK 6_1130-1204
+- [1130_ruby_day11](https://hackmd.io/@astrocamp6th/B1NnH6WsP/edit)
+	- 留言功能 comment
+	- AJAX
+- [1201_javascript_day01](https://hackmd.io/@astrocamp6th/rkEMUCWsw/edit)
+- [1202_javascript_day02](https://hackmd.io/@astrocamp6th/BkNsPAbiP/edit)
+- [1204_ruby_day12](https://hackmd.io/@astrocamp6th/r1hL86-sD/edit)
 ---
 # WEEK 7_1207-1211
 ---
@@ -83,6 +118,21 @@
 - 0130 demo day 
 
 ---
+# 筆記整理
+- [資料庫筆記整理](https://hackmd.io/-MZwSOngT_Gv7C-dUjBzGA)
+
+---
+# 面試問題
+- [面試題目收集](https://hackmd.io/@astrocamp6th/Sk4ZhtJtP/edit)
+---
+# 其他 / 未歸類
 - [1102 職涯講座](https://hackmd.io/@astrocamp6th/SJKiMHRdD/edit)
 - [1107 作業檢討(線上)](https://discord.com/channels/748042598983401482/748046752870826045/774981125780930570)
 - [1110 默默會：VIM 和 TMUX 經驗交流](https://peaceful-dev.kktix.cc/events/08588a67)
+- [1203_履歷撰寫技巧講座](https://hackmd.io/@astrocamp6th/SkGSOAZiD/edit)
+
+---
+# 附錄
+- [Best YouTube Channels to Learn Programming](https://www.cloudways.com/blog/best-youtube-channels-to-learn-programming/)
+- [hackmd的css參考語法設定](https://hackmd.io/hackmd-dark-theme?both)
+- [圖表教學(hackmd)](https://hackmd.io/s/MathJax-and-UML-tw)
