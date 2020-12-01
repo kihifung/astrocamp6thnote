@@ -1,5 +1,8 @@
 # 1103_htmlcss_day3
 
+[![hackmd-github-sync-badge](https://hackmd.io/TTdYhHaGReCye4C11dpOiQ/badge)](https://hackmd.io/TTdYhHaGReCye4C11dpOiQ)
+
+---
 #### 上課日期：1103
 ###### tags: `html/css`
 ###### tags: `5xruby`
@@ -80,7 +83,7 @@
 
 
 
-
+---
 # 作業
 - 做一個網頁
 - 目標：
