@@ -1,5 +1,8 @@
 # 1106_ruby_day4
 
+[![hackmd-github-sync-badge](https://hackmd.io/rhCCiyiLRYeZte3LbM-bVQ/badge)](https://hackmd.io/rhCCiyiLRYeZte3LbM-bVQ)
+
+---
 #### 上課日期：1106
 ###### tags: `ruby`
 ###### tags: `5xruby`
@@ -7,7 +10,6 @@
 ---
 # 相關連結:
  - [課程影片](https://campus.5xruby.tw/courses/1136422/lectures/25361517)
-
 
 
 ---
@@ -43,11 +45,11 @@
 ---
 ## 1.1. 各種小知識 
 ### 1.1.1. 版號命名規則
-4.0.0
-3.10.0
-3.8.2
-3.8.0
-- major / minor / patch
+
+
+| <center>4.0.0</center> |3.10.0 | 3.8.2 | 3.8.0 |
+| -------- | -------- | -------- |-------- |
+| major / minor / patch |    |      |
 	- patch 修改小地方
 	- minor 修改一些功能，有可能不相容
 	- major 大改版，通常不會向下相容
@@ -166,19 +168,19 @@
 
 ## 建立專案
 1. 找一個適合的地方建立專案資料夾
-`$ rails new [name]`
+`$ rails new NAME`
 2. 進入到該資料夾
-`cd [name]`
-`rails s`
+	`cd NAME`
+	`rails s`
 :::info
 `rails server` > `rails s`
 rails server 命令會啟動一個小型的網路伺服器，叫做 WEBrick，是 Ruby 內建的伺服器。想要在瀏覽器存取 Rails 應用程式，使用 rails server 來啟動伺服器。
 :::
 
 3. 確認專案已建立，在瀏覽器鍵入，`localhost:3000`
-4. 建立
+4. 建立基本資料
 `$ rails g model User email password nickname account avatar school`
-如果打錯的話：`$ rails b model User email password nickname account avatar school`，將g改成b，再打一次
+	- 如果打錯的話：`$ rails b model User email password nickname account avatar school`，將g改成b，再打一次
 5. 進入資料夾 xxx > db > migrate 
 	- Migration這個資料夾的目的是什麼？
 		- 描述說接下來這個表格掌什麼樣子
@@ -195,15 +197,9 @@ rails server 命令會啟動一個小型的網路伺服器，叫做 WEBrick，�
 -----
 
 
-
-
-
-
-
-
 ---
 # 附件
 - [上課投影片](https://discord.com/channels/748042598983401482/748046752870826045/774152748664094750) 
-- [這裡是附件的標題](這裡放連結) 
+- [Ping-Pong, Paired Programing](https://thoughtbot.com/upcase/videos/ping-pong-paired-programing) 
 
 
