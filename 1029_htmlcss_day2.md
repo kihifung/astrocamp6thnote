@@ -1,5 +1,9 @@
 # 1029_htmlcss_day2
 
+[![hackmd-github-sync-badge](https://hackmd.io/hz9_FQHpTXOy-bqUMKPUDA/badge)](https://hackmd.io/hz9_FQHpTXOy-bqUMKPUDA)
+
+---
+
 #### 上課日期：1029
 ###### tags: `html/css`
 ###### tags: `5xruby`
@@ -16,10 +20,10 @@
 
 ---
 # 0. 今日綱要 / 目錄
-> 1. [表單](https://hackmd.io/3QgapOxBSk-Pg9nqGtSyHg?both#1-%E8%A1%A8%E5%96%AE)
-> 2.  
-> 3. 
+1. [表單](https://hackmd.io/3QgapOxBSk-Pg9nqGtSyHg?both#1-%E8%A1%A8%E5%96%AE)
+2. CSS
 
+---
 # 1. 表單
 ### 以網站的會員資料為例：一個表單會有什麼資料？
 > 怎樣的資料適合怎樣的呈現？使用者會怎樣使用？如何操作？
