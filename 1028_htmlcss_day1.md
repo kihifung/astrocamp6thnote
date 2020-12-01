@@ -1,10 +1,11 @@
 # 1028_htmlcss_day1
 
+[![hackmd-github-sync-badge](https://hackmd.io/W8LVzdCdQd-B98vVegs4UQ/badge)](https://hackmd.io/W8LVzdCdQd-B98vVegs4UQ)
+
+---
 #### 上課日期：1028
 ###### tags: `html/css`
 ###### tags: `5xruby`
-
-
 
 ---
 
