@@ -1,4 +1,7 @@
-# 1026 Git day1
+# 1026_git_day1
+
+[![hackmd-github-sync-badge](https://hackmd.io/bTmUOsYXSGqdcgyxEex10w/badge)](https://hackmd.io/bTmUOsYXSGqdcgyxEex10w)
+
 #### 上課日期：1026
 ###### tags: `git`
 ###### tags: `5xruby`
