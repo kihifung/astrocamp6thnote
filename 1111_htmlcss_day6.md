@@ -2,7 +2,7 @@
 
 [![hackmd-github-sync-badge](https://hackmd.io/89Znenj0RdmayDkbMEdkEQ/badge)](https://hackmd.io/89Znenj0RdmayDkbMEdkEQ)
 
-
+---
 #### 上課日期：1111
 ###### tags: `html/css`
 ###### tags: `5xruby`
@@ -96,5 +96,5 @@
 	- `:checked `內容的狀態
 
 
-
+---
 
