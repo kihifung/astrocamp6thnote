@@ -2,12 +2,10 @@
 
 [![hackmd-github-sync-badge](https://hackmd.io/gF9pl_EcSGGGOQjO2GdOTA/badge)](https://hackmd.io/gF9pl_EcSGGGOQjO2GdOTA)
 
-
-
+---
 #### 上課日期：1124
 ###### tags: `html/css`
 ###### tags: `5xruby`
-
 
 ---
 # 相關連結:
@@ -19,11 +17,10 @@
 - [金魚都能懂的Bootstrap5網頁框架開發(清單)](https://www.youtube.com/playlist?list=PLqivELodHt3jq3oWBZfdhMu0GE7774HBW)
 - [position-金魚都能懂的CSS必學屬性](https://ithelp.ithome.com.tw/articles/10253500)
 
-
-
 ---
 # 0. 綱要/目錄
 - [ ] bootstrap
+- [ ] vscode技巧
 
 
 ---
@@ -40,6 +37,7 @@
 
 
 ---
+# 1. bootstrap
 #### 寬度
 - 100%，畫面寬度，不含捲軸 
 - 100vh，視窗寬度，畫面寬度加上捲軸
@@ -78,18 +76,12 @@
 #### layout > Containers	
 ![](https://i.imgur.com/CWJMHhT.png)
 
-#### snippet-creator(vscode	套件)
-- 快捷鍵設定
-1. 寫好想要的內容
-2. 選取後，cmd + shift + p 
-3. 輸入套件名稱 crea... 或 snip...
-4. 選擇內容的類別（html,...）
-5. 輸入快捷鍵完整名稱
-6. 輸入快捷鍵（打什麼會跑出來）
-7. 輸入快捷鍵的內容描述
-8. 開心使用快捷鍵
--
+
+
+---
+
 **[note]** bootstrap的排版預設都用flex
+
 
 ##### flex
 > 包含三個屬性 flex-grow、flex-shrink 和 flex-basis。
@@ -137,6 +129,18 @@
 
 
 ---
+# 2.vscode技巧
+#### snippet-creator(vscode	套件)
+- 快捷鍵設定
+1. 寫好想要的內容
+2. 選取後，cmd + shift + p 
+3. 輸入套件名稱 crea... 或 snip...
+4. 選擇內容的類別（html,...）
+5. 輸入快捷鍵完整名稱
+6. 輸入快捷鍵（打什麼會跑出來）
+7. 輸入快捷鍵的內容描述
+8. 開心使用快捷鍵
+
 
 
 
