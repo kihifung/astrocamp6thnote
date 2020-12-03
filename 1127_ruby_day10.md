@@ -1,4 +1,4 @@
-# 1127_ruby_day10
+# 1127_ruby_day10_javascript_day0
 
 [![hackmd-github-sync-badge](https://hackmd.io/0mIS-lNgRiWiYGz4jzfX1Q/badge)](https://hackmd.io/0mIS-lNgRiWiYGz4jzfX1Q)
 
@@ -6,6 +6,7 @@
 #### 上課日期：1127
 ###### tags: `ruby`
 ###### tags: `5xruby`
+###### tags: `javascript`
 
 ---
 # 相關連結:
@@ -40,24 +41,25 @@
 var a = 1;
 ```
 
-2. window
-3. context
-4. function
+2. window <br>
+ 指現在這個頁面本身
+4. context
+5. function
 
 - undefined 未定義：有這個東西，但是還沒有定義這個東西是什麼
 - not defined 沒有定義：沒有這個東西
 
 ##### 變數提升 variable Hoisting
 - [說明(MDN)](https://developer.mozilla.org/zh-TW/docs/Glossary/Hoisting)
-##### 語言的類型：編譯與直譯
+##### 語言的類型：編譯與直譯 Compilation vs Interpretation
 - 編譯：c, java
 - 直譯：ruby, js(過程中有部分在執行編譯)
 
 
-##### js的直譯與編譯
+##### js的建立期與執行期
 1. 建立期：
-	1A. 註冊名稱（取得變數名稱）
-	1B. 進行初始化
+    - 1A. 註冊名稱（取得變數名稱） Identifier
+	- 1B. 進行初始化
     
 2. 執行期： 2. 執行函數/變數 <br>
         *邏輯判斷在這段執行*
@@ -73,9 +75,40 @@ let a = 1
 - 錯誤訊息：Uncaught ReferenceError: Cannot access 'a' before initialization
 
 ##### 暫時死區 TDZ（Temporal Dead Zone）
+let會先把宣告的變數做**暫時死區**
 > [color=#bf6211]面試題：什麼是TDZ？
 - 有些人說let就是新版的var：大部分的時候是
 - js會在建立期的時候，將全部的變數都先定義完。
+
+#### 其他語法使用
+- `document.querySelector()` 抓取參數帶入的選取器所指定的一個(HTML)元素
+- `document.querySelectorAll()` 抓取參數帶入的指定選取器的多個元素
+- `document.getElementById()` 抓取指定id的元素
+- `innerHTML` <br>
+  HTML
+  ```htmlmixed=
+  <div id="abc">123</div>
+  ```
+  JS
+  ```javascript=
+  var e = document.getElementById('abc');
+  e.innerHTML = "<h1>456</h1>";
+  ```
+  網頁渲染出來結果會是h1標題大小的`456`
+- `innerText` <br>
+  以上例來說，改用innerText只會替換tag裡面的字元，不會把字串裡寫到的tag憶起渲染，只是單純的抓字元，所以JS會渲染成普通字大小的`<h1>456</h1>`
+- `classList`
+  在動態時指定
+- `addEventListener`
+- `preventDefault` <br>
+  舉例
+  ```javascript=
+  addEventListener("click",function(evt){
+  evt.preventDefault();
+  alert(evt.target);
+  })
+  ```
+  
 
 ##### html的id屬性
 > [color=#bf6211]面試題：class和id有什麼不同
