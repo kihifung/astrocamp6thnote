@@ -2,8 +2,7 @@
 
 [![hackmd-github-sync-badge](https://hackmd.io/VX1hMo8BTf-ncsbasXbxpA/badge)](https://hackmd.io/VX1hMo8BTf-ncsbasXbxpA)
 
-
-
+---
 #### 上課日期：1126
 ###### tags: `html/css`
 ###### tags: `5xruby`
@@ -34,7 +33,7 @@
 # 1. 案例說明：絕對定位
 
 
-
+---
 # 2. bootstrap
 #### 幻燈片
 * [**Carousel**](https://getbootstrap.com/docs/4.5/components/carousel/)：內建，不好用 
