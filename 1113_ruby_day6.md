@@ -2,7 +2,7 @@
 
 [![hackmd-github-sync-badge](https://hackmd.io/EOFrEBNKTSiSGJVlmjhzmA/badge)](https://hackmd.io/EOFrEBNKTSiSGJVlmjhzmA)
 
-
+---
 #### 上課日期：1113
 ###### tags: `ruby`
 ###### tags: `5xruby`
@@ -19,7 +19,7 @@
 - [ ] 新增
 - [ ] 修改
 - [ ] 刪除
-- [ ] 重點5
+- [ ] 作業
 
 
 ---
