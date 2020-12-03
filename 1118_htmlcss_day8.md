@@ -2,7 +2,7 @@
 
 [![hackmd-github-sync-badge](https://hackmd.io/_Y-9iQE9TwScsC0HZiwg4g/badge)](https://hackmd.io/_Y-9iQE9TwScsC0HZiwg4g)
 
-
+---
 #### 上課日期：1118
 ###### tags: `html/css`
 ###### tags: `5xruby`
@@ -22,16 +22,16 @@
 
 ---
 # 0. 綱要/目錄
-- [ ] 重點1
-- [ ] 重點2
-- [ ] 重點3
-- [ ] 重點4
-- [ ] 重點5
+- [ ] 定寬容器
+- [ ] 等比例區塊
+- [ ] 作業 code review
+- [ ] 作業
+- [ ] 附件
 
 
 ---
-# 1. theme1
-#### 定寬容器:
+# 1. 定寬容器
+#### 定寬容器：
 - 固定寬度的的容器
 - 會依視窗變化寬度，但大到一個尺寸之後就不再變大的容器。
   設定最大寬度，用`max-width`
@@ -73,7 +73,7 @@ cmd + 前/後 = 跳到最前面/最後面
 
 ---
 
-# 等比例區塊
+# 2. 等比例區塊
 > 常見於網頁中的嵌入區塊，像是youtube播放區塊、googlemap等。
 - 使用padding-bottom來設定
 - 這裡的尺寸（百分比）會參照父層的寬度
@@ -86,7 +86,7 @@ cmd + 前/後 = 跳到最前面/最後面
 1. iframe寬高 => mv寬高 ＝ iframe原始比例
 
 ---
-# 作業 code review
+# 3. 作業 code review
 #### 主標題（h1）的使用
 - 一般來說，一個頁面只會有一個h1，太多可能被google視為對搜尋SEO作弊。
 - BUT，在html的設定文件中，每個章節（section）可以有一個主標題(h1)
@@ -115,7 +115,8 @@ cmd + 前/後 = 跳到最前面/最後面
 
 ---
 # 附件
-- [Keyboard shortcuts for macOS(HackMD)](https://hackmd.io/@astrocamp6th/ByyYELf9v) 
+- [Keyboard shortcuts for macOS(HackMD)](https://hackmd.io/@astrocamp6th/ByyYELf9v)
+- [Keyboard shortcuts for macOS(pdf)](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) 
 - [Keyboard shortcuts for Windows(pdf)](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 - [wireframe(chrome擴充功能)](https://chrome.google.com/webstore/detail/wireframe/amchfjeinhflcmbpdgdihhdoogdagcaf?hl=zh-TW)
 	- 看網頁架構
