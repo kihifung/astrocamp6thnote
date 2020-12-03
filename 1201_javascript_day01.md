@@ -2,7 +2,7 @@
 
 [![hackmd-github-sync-badge](https://hackmd.io/aiG7HSulR0SWWMrS9Erm6w/badge)](https://hackmd.io/aiG7HSulR0SWWMrS9Erm6w)
 
-
+---
 #### 上課日期：1029
 ###### tags: `javascript`
 ###### tags: `5xruby`
@@ -15,16 +15,11 @@
 
 ---
 # 0. 綱要/目錄
-- [ ] 重點1
-- [ ] 重點2
-- [ ] 重點3
-- [ ] 重點4
-- [ ] 重點5
+- [ ] javascript基本概念重點
 
 
 ---
-# 1. theme1
-
+# 1. javascript基本概念
 
 
 ##### 變數宣告
@@ -99,6 +94,8 @@ const x = {...}  // 可以改Block裡面的內容
 'object'
 ```
 ##### NaN
+- Not A Number，非數：不是可以用一般形式表達的數/值
+- 表示未定義或不可表示的值，常在浮點數運算中使用。
 
 ##### 比較
 - 要比較兩個東西時，使用三個等號會比兩個等號精準
@@ -131,7 +128,7 @@ const x = {...}  // 可以改Block裡面的內容
 - 表達式(Expression) 
 - 陳述句(Statement)
 
-
+:::info
 ##### 課程練習
 - 如何將list[]變成兩倍？
 ```javascript=
@@ -151,6 +148,8 @@ const result = list.filter(function(x){
 console.log(result);
 >> [1, 3, 5]
 ```
+:::
+
 
 ##### js的this
 龍：js裡最難的
