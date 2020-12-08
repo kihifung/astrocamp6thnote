@@ -1,5 +1,8 @@
 # 1208_javascript_day03
 
+[![hackmd-github-sync-badge](https://hackmd.io/uzghk-rQQUGivw8rFu7QQg/badge)](https://hackmd.io/uzghk-rQQUGivw8rFu7QQg)
+
+
 ---
 #### 上課日期：1208
 ###### tags: `javascript`
@@ -9,95 +12,69 @@
 ---
 # 相關連結:
 - [課程影片](https://campus.5xruby.tw/courses/1136422/lectures/25361517)
-
+- [課前練習題](https://github.com/lumir1031/Workshop_warm_up)
 
 ---
 # 0. 綱要/目錄
-- [ ] 重點1
-- [ ] 重點2
-- [ ] 重點3
-- [ ] 重點4
-- [ ] 重點5
+- [ ] 工作坊 - To Do List
+- [ ] 點擊任務，新增/刪除完成標記
+- [ ] 點擊 x ，刪除任務
+- [ ] 輸入新任務名稱， 按下+新增任務
+- [ ] (加分題) 拖拉任務
 
 
 ---
-# 1. theme1
-> 說明這部分是什麼
-1. topic1
-    1. item1
-        * aaa
-        * bbb
-        * ccc  
-    3. item2
-    4. item3
-1. topic2
-1. topic3
+# 工作坊 - To Do List 
+- [題目原始碼(github)](https://github.com/lumir1031/Workshop_todolist)
+### 專案準備及提交
+1. fork 此 repo 到自己的 Github ，並 clone 到自己電腦
+1. 將 master 保護起來，禁止推 master branch
+    > 到自己的 repo > Settings > Branches > Branch protection rules > add rule 設定
+1. 每個功能都開一個 branch 進行
+    > 舉例： feature/Complete_task_add_checked
+1. 完成後，發 PR 到自己的 repo 並且自己 merge 進 master
+### 任務: 完成 To Do List 功能
+1. 點擊任務標記是否完成
+    > 點擊 li 新增/移除 checked class
+1. 點擊 x 刪除任務
+    > 點擊 span (後面那個 x) 可移除任務
+1. 輸入新任務名稱， 按下+新增任務
+    > 取得 input 輸入的文字
+    按下 + 可以新增任務（li）
+    新增的任務也有標記/移除功能
+1. (加分題) 拖拉任務
+    > 透過 HTML Drag and Drop API 完成，可參考 (04_bonus-drag)
+    - 替li新增拖拉屬性，再加上拖拉的監聽事件
+
+---
+
+# 1. 點擊任務，新增/刪除完成標記
+
+---
+# 2. 點擊 x ，刪除任務
+
+---
+# 3. 輸入新任務名稱， 按下+新增任務
+
+
+---
+# 4. (加分題) 拖拉任務
 
 
 
-# 2. theme2
-> 說明這部分是什麼
-1. topic1
-    1. item1
-     :::info
-        * aaa
-        * bbb
-        * ccc       
-     :::
-
-    3. item2
-    4. item3
-1. topic2
-1. 圖片連結格式
-    - `![](連結網址)`
-    - 範例圖：
-![](https://5xruby.tw/assets/images/index/banner_astro-a839be5c.jpg)
-
-
-# 3. theme3
-> 說明這部分是什麼
-
-- 選取方塊
-    - [x] 選項1
-    - [ ] 選項2
-    - [x] 選項3
-    - [ ] 選項4
-
-- 連結格式
-
-> []> 連結格式`[](https://)`
-> [color=#28c945]
+---
 
 
 
-
-
-# 4. theme4
-> 說明這部分是什麼
-1. 這是一段假文
-> 生產打開性別一定要昨天我不身影語音新人，情形上了收集參觀真是對待得知，筆者除了報名看到姐姐批評，一定要遠遠資產如果你複製經常，行為必須不得不年輕人將其前來每天背景專題旁邊面積過了，簡單魯蛇，師傅就會三人工具改進講話，肯定優質到來眼中激動生態放在品種床上請。
-
-2. `$ 程式碼格式 `，也可以當作變色/標注用
-
-
-# 5. theme5
-> 說明這部分是什麼
-
-- 這裡有一個表格
-
-| Column 1 | Column 2 | Column 3 |
-| -------- | -------- | -------- |
-| Text     | Text     | Text     |
-| Text     | Text    
-| | | |
-| | | |
 
 
 
 
 ---
 # 附件
-- [這裡是附件的標題](這裡放連結) 
-- [這裡是附件的標題](這裡放連結) 
+- [如何-創建待辦事項清單(w3schools)](https://www.w3schools.com/howto/howto_js_todolist.asp) 
+- [用Vue做拖拉功能(github)](https://github.com/SortableJS/Vue.Draggable)
+  1. 引入CDN
+  2. 在被拖拉物件外面包上拖拉語法
 
 
