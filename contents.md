@@ -3,17 +3,7 @@
 [![hackmd-github-sync-badge](https://hackmd.io/d_6N3lc7QwycnrNaJKykbg/badge)](https://hackmd.io/d_6N3lc7QwycnrNaJKykbg)
 
 ---
----
-<!-- 
-<style>
-
-html, body, .ui-content {
-    background-color: hsl(55deg, 10%, 15%);
-    color: #fff;
-}
-
-</style>
- -->
+[MINASWAN](https://en.wiktionary.org/wiki/MINASWAN)
 
 
 ---
@@ -89,6 +79,14 @@ html, body, .ui-content {
 - [1204_ruby_day12](https://hackmd.io/@astrocamp6th/r1hL86-sD/edit)
 ---
 # WEEK 7_1207-1211
+- [1207_ruby_day13_vue](https://hackmd.io/@astrocamp6th/HyUqmh_ow/edit)
+- [1208_javascript_day03](https://hackmd.io/@astrocamp6th/ry7zS3ujw/edit)
+  - 工作坊：實作todolist
+- [1209_javascript_day04](https://hackmd.io/@astrocamp6th/r1fKHnusv/edit)
+  - Asynchronous
+    >- fetch / then
+    >- async / await
+- [1211_ruby_day14](https://hackmd.io/@astrocamp6th/HyCc42_sw/edit)
 ---
 # WEEK 8_1214-1218
 ---
@@ -130,9 +128,13 @@ html, body, .ui-content {
 - [1107 作業檢討(線上)](https://discord.com/channels/748042598983401482/748046752870826045/774981125780930570)
 - [1110 默默會：VIM 和 TMUX 經驗交流](https://peaceful-dev.kktix.cc/events/08588a67)
 - [1203_履歷撰寫技巧講座](https://hackmd.io/@astrocamp6th/SkGSOAZiD/edit)
+- 1208 學長姐經驗分享(默默會)
+- 
 
 ---
 # 附錄
 - [Best YouTube Channels to Learn Programming](https://www.cloudways.com/blog/best-youtube-channels-to-learn-programming/)
 - [hackmd的css參考語法設定](https://hackmd.io/hackmd-dark-theme?both)
 - [圖表教學(hackmd)](https://hackmd.io/s/MathJax-and-UML-tw)
+- [6thAstroCamp社群通訊錄](https://hackmd.io/iv1xjlUOSeGarpMUUIGw9w)
+
