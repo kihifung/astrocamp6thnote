@@ -1,4 +1,8 @@
 # 1209_javascript_day04
+> #### 透過 JavaScript 進行 HTTP 請求 & 非同步
+
+[![hackmd-github-sync-badge](https://hackmd.io/s_wCvJCIRdqsJ0x7DCxVDQ/badge)](https://hackmd.io/s_wCvJCIRdqsJ0x7DCxVDQ)
+
 
 
 ---
@@ -15,91 +19,145 @@
 
 ---
 # 0. 綱要/目錄
-- [ ] 重點1
-- [ ] 重點2
-- [ ] 重點3
-- [ ] 重點4
-- [ ] 重點5
+- [ ] HTTP request via JavaScript
+- [ ] Asynchronous / 非同步
+- [ ] http POST via JavaScript
+  - [ ] fetch / then
+  - [ ] async / await
 
 
 ---
-# 1. theme1
-> 說明這部分是什麼
-1. topic1
-    1. item1
-        * aaa
-        * bbb
-        * ccc  
-    3. item2
-    4. item3
-1. topic2
-1. topic3
+# 1. HTTP request via JavaScript
+
+#### chrome dev tools
+- network頁面的disable cache和 preserve log
+- 開發中要把(檢視瀏覽器裡的)Network裡的Disable cache打開，通常會打勾，確定是最新版。
+
+##### fetch(...)
+- 提供了一個能獲取包含跨網路資源在的資源介面。它有點像我們所熟悉的 XMLHttpRequest。
+- 讓靜態頁面中可以動態呈現（以javascript去遠端抓取資料）
+- [(MDN)](https://developer.mozilla.org/zh-TW/docs/Web/API/Fetch_API)
+- 在 fetch(...) 出現之前：
+  * `$.ajax()`
+  * `XMLHttpRequest`
+```javascript=
+fetch(...)
+  .then(request => request.json())
+  .then(posts => { ... })
+```
+
+##### Posts API server
+- [Git repository](https://github.com/5xTraining/pastleo-js-posts-api)
+- [實作範例](https://pastleo-posts-api.herokuapp.com/posts)
+
+##### JSON
+- `{}` (物件)裡包的鍵值一定要用字串`""`方式
 
 
 
-# 2. theme2
-> 說明這部分是什麼
-1. topic1
-    1. item1
-     :::info
-        * aaa
-        * bbb
-        * ccc       
-     :::
+##### Arrow Function
+- [箭頭函式(MDN)](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+  > 擁有比函式運算式還簡短的語法。它沒有自己的 this、arguments、super、new.target 等語法。本函式運算式適用於非方法的函式，但不能被用作建構式（constructor）。
+  
+例
+```javascript=
+var test = (a, b) => a + b
+test(1, 2)
+// 3
+```
 
-    3. item2
-    4. item3
-1. topic2
-1. 圖片連結格式
-    - `![](連結網址)`
-    - 範例圖：
-![](https://5xruby.tw/assets/images/index/banner_astro-a839be5c.jpg)
+### template strings 樣板字面值
+- [MDN說明](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Template_literals)
+- 一種新的寫法，使用反引號"\`"來包裹
+- 範例：
 
 
-# 3. theme3
-> 說明這部分是什麼
+#### CORS 跨來源資源共享
+- [Cross-origin resource sharing(wiki)](https://zh.wikipedia.org/zh-tw/%E8%B7%A8%E4%BE%86%E6%BA%90%E8%B3%87%E6%BA%90%E5%85%B1%E4%BA%AB)
 
-- 選取方塊
-    - [x] 選項1
-    - [ ] 選項2
-    - [x] 選項3
-    - [ ] 選項4
+---
+# 2. Asynchronous / 非同步
+- 非同步語法問題：Callback hell
+ > 為了執行非同步，可能會造成程式碼太多層
+- 解法：使用promise
 
-- 連結格式
+- [延伸閱讀](https://realdennis.medium.com/callback-hell-%E8%88%87-promise-%E4%B8%80%E8%B5%B7%E4%BE%86%E6%8A%8A-settimeout-%E5%B0%81%E8%A3%9D%E6%88%90-promise-%E5%90%A7-e542ef84967f)
 
-> []> 連結格式`[](https://)`
-> [color=#28c945]
+#### async function
+- 寫法：
+```javascript=
+async () => {}
+async function() {}
+async function name() {}
+```
+- 預設會回傳 Promise
+- 可用 await 關鍵字
+  - `resolved = await promise`
+
+* callback 改寫為 promise 
+  1. 修改 執行的動作
+  2. 修改 常數
+  
+  
+  
+---
+# 3. http POST via JavaScript
+> 範例9. 建立新增post的頁面，將資料上傳
+
+#### fetch(url, options) 的 options
+* url 與 posts index 相同
+* 使用'POST'方法
+* headers: { Authorization: '...' }
+  * ... = pastleo-js-posts-api-secret 通關密語/key
+* body: new FormData(form)
+  * FormData
+
+### 密語的設定
+在[這裡](https://github.com/5xTraining/pastleo-js-posts-api/blob/master/app/controllers/posts_controller.rb#L105)設定：
+/pastleo-js-posts-api/app/controllers/posts_controller.rb
+```ruby=
+def verify_api_authorization
+      if request.headers['Authorization'] != 'pastleo-js-posts-api-secret'
+        head :forbidden
+      end
+end
+```
+
+### 錯誤處理
+* 錯誤處理
+  * request.ok
+  * 顯示錯誤訊息
+* Loading 效果
+* 防止重複送出
+* 成功後清除輸入
+* 
+---
 
 
-
-
-
-# 4. theme4
-> 說明這部分是什麼
-1. 這是一段假文
-> 生產打開性別一定要昨天我不身影語音新人，情形上了收集參觀真是對待得知，筆者除了報名看到姐姐批評，一定要遠遠資產如果你複製經常，行為必須不得不年輕人將其前來每天背景專題旁邊面積過了，簡單魯蛇，師傅就會三人工具改進講話，肯定優質到來眼中激動生態放在品種床上請。
-
-2. `$ 程式碼格式 `，也可以當作變色/標注用
-
-
-# 5. theme5
-> 說明這部分是什麼
-
-- 這裡有一個表格
-
-| Column 1 | Column 2 | Column 3 |
-| -------- | -------- | -------- |
-| Text     | Text     | Text     |
-| Text     | Text    
-| | | |
-| | | |
+# 回顧 Recap
+* fetch(...)
+  * CORS
+* new Promise(resolve => { ... })
+* async / await
 
 
 
 
 ---
 # 附件
-- [這裡是附件的標題](這裡放連結) 
-- [這裡是附件的標題](這裡放連結) 
+### window 與 document
+- 一般寫的
+`window.addEventListener("DOMContentLoaded", function(){})` 和
+`document.addEventListener("DOMContentLoaded", function(){})` 有一樣的效果，因為作用都是在document這一層。
+- 但load方法在document會聽不到（詳見附圖）。
+```javascript=
+document.addEventListener("load", () => {
+  console.log('聽不到！');
+})
+```
+![](https://i.imgur.com/C9POkhV.png)
+> 龍：要知道哪些層級（或元件）聽得到哪些事件，就得查找手冊了
+
+
 
 
