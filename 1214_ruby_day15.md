@@ -1,103 +1,105 @@
 # 1214_ruby_day15
+---
+[![hackmd-github-sync-badge](https://hackmd.io/0U9lPxDqQ1ayBJXDzE9vLQ/badge)](https://hackmd.io/0U9lPxDqQ1ayBJXDzE9vLQ)
+
+---
 
 #### 上課日期：1214
 ###### tags: `ruby`
 ###### tags: `5xruby`
 
-
 ---
 # 相關連結:
 - [課程影片](https://campus.5xruby.tw/courses/1136422/lectures/25361517)
- - [連結標題](網址)
- - [連結標題](網址)
+- [購物車(為你自己學rails)](https://railsbook.tw/chapters/27-shopping-cart-part-1.html)
+
 
 ---
 # 0. 綱要/目錄
-- [ ] 重點1
-- [ ] 重點2
-- [ ] 重點3
-- [ ] 重點4
-- [ ] 重點5
+- [ ] 購物車 with TDD
+
 
 
 ---
-# 1. theme1
-> 說明這部分是什麼
-1. topic1
-    1. item1
-        * aaa
-        * bbb
-        * ccc  
-    3. item2
-    4. item3
-1. topic2
-1. topic3
+# 1. 購物車
+
+### 書店
+- [the pragmatic bookshelf(書店)](https://pragprog.com/)
+  - 老闆為[David Thomas](https://en.wikipedia.org/wiki/Dave_Thomas_(programmer))，也是Ruby的大大。
+  - [AWD6](https://pragprog.com/titles/rails6/agile-web-development-with-rails-6/)：裡面的方法為把購物車做到資料庫裡面
+- [另一間書店](https://www.packtpub.com/)
+  - 龍：水準參差不齊，需慎選！
+
+### 購物車設計
+  * cart
+  * cartitem
+  * 每一頁都可以看到，用Session
 
 
+#### 基本功能：
+1. 把商品丟到到購物車裡（購物車裡就有東⻄）
+2. 重複點擊購物，購買項目(CartItem)不會增加，但數量會改變
+3. 商品可以放進去也可以拿出來（購物車）
+4. 每個購買項目都可以計算它自己的金額(小計)
+5. 可以計算整台購物車的總金額
+6. 特別活動-折扣(ex: 全面九折、滿千送百、滿額免運）
 
-# 2. theme2
-> 說明這部分是什麼
-1. topic1
-    1. item1
-     :::info
-        * aaa
-        * bbb
-        * ccc       
-     :::
+#### 安裝套件
+* rspec-rails
+* factory_bot_rails
+* faker
 
-    3. item2
-    4. item3
-1. topic2
-1. 圖片連結格式
-    - `![](連結網址)`
-    - 範例圖：
-![](https://5xruby.tw/assets/images/index/banner_astro-a839be5c.jpg)
+#### 裝在哪？
+* group :development, :test
+* group :development
 
+##### minitest
+第一層資料夾有個叫test，使用rspec用不到，那是用[minitest](https://rubygems.org/gems/minitest)才會使用到。
+vendor資料夾也是空的，也可以刪掉．
 
-# 3. theme3
-> 說明這部分是什麼
-
-- 選取方塊
-    - [x] 選項1
-    - [ ] 選項2
-    - [x] 選項3
-    - [ ] 選項4
-
-- 連結格式
-
-> []> 連結格式`[](https://)`
-> [color=#28c945]
+##### 寫測試的目的
+- 建立安全網
+- 是QA不是QC
+- AAA原則：
+  * Arrange
+  * Act
+  * Assert
+- 測試時以變動最小為原則，一次改一個，才知道哪裡有問題
 
 
+#### 指令
+1. 安裝測試資料夾： `$ rails g rspec:install`
+2. 在rspec下建立model： `$ rails g rspec:model Cart`
 
 
+#### 套件 timecop
+- [gem連結](https://rubygems.org/gems/timecop)
+- [用 Timecop 自由穿梭時間軸](https://medium.com/@tonyhsu/%E7%94%A8-timecop-%E8%87%AA%E7%94%B1%E7%A9%BF%E6%A2%AD%E6%99%82%E9%96%93%E8%BB%B8-e9d606e8dbd3)
+  - 修改時間為特定時間
 
-# 4. theme4
-> 說明這部分是什麼
-1. 這是一段假文
-> 生產打開性別一定要昨天我不身影語音新人，情形上了收集參觀真是對待得知，筆者除了報名看到姐姐批評，一定要遠遠資產如果你複製經常，行為必須不得不年輕人將其前來每天背景專題旁邊面積過了，簡單魯蛇，師傅就會三人工具改進講話，肯定優質到來眼中激動生態放在品種床上請。
+### 名詞解釋
+- WIP的意思即為Work In Process，處理中。
 
-2. `$ 程式碼格式 `，也可以當作變色/標注用
-
-
-# 5. theme5
-> 說明這部分是什麼
-
-- 這裡有一個表格
-
-| Column 1 | Column 2 | Column 3 |
-| -------- | -------- | -------- |
-| Text     | Text     | Text     |
-| Text     | Text    
-| | | |
-| | | |
-
-
+---
+```ruby=
+  def serialize
+     items = []
+      @items.each do |item|
+      items << { "item_id" => item.item_id,
+                 "quantity" => item.quantity }
+    end
+```
+---
 
 
 ---
 # 附件
-- [這裡是附件的標題](這裡放連結) 
-- [這裡是附件的標題](這裡放連結) 
-
-
+- [Ruby文件](https://ruby-doc.com/) 
+- [RailsHurts](https://railshurts.com/)：隨機出現十題，看看是ruby語法，還是rails語法 
+- [Ruby Association](https://www.ruby.or.jp/en/)
+  - 一個日本的組織，有在發放證照
+  - [題庫(銀級)](https://www.ruby.or.jp/assets/images/en/certification/exam_prep_en.pdf)
+  - [題庫2(銀級)(github)](https://github.com/ruby-association/prep-test/blob/master/silver.md)
+  - [題庫(金級)(github)](https://github.com/ruby-association/prep-test/blob/master/gold.md)
+  
+  
